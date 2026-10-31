@@ -1,0 +1,137 @@
+{
+  "settings": {
+    "companyName": "Lenvik Construction & Fabrication",
+    "tagline": "Your vision, our expertise.",
+    "heroEyebrow": "Construction · Interiors · Steel & PEB",
+    "heroText": "[One or two lines on what you build, where, and why clients come back.]",
+    "yearFounded": "[Year]",
+    "phone": "+91 78297 80587",
+    "whatsapp": "917829780587",
+    "email": "hello@example.com",
+    "hours": "Mon–Sat, 9 am – 6:30 pm",
+    "replyTime": "24 hours",
+    "heroVideo": "/hero.mp4",
+    "heroPoster": "/hero-poster.jpg",
+    "stats": [
+      { "value": "[12]+", "label": "Years of experience" },
+      { "value": "[340]+", "label": "Projects delivered" },
+      { "value": "[180]+", "label": "Skilled employees" }
+    ],
+    "interiorOfferings": [
+      { "title": "2D/3D design", "description": "See every room before work starts." },
+      { "title": "Interior design", "description": "Materials, finishes and lighting chosen to fit your style." },
+      { "title": "Space planning", "description": "Layouts that make the most of every square foot." },
+      { "title": "Modular concept", "description": "Modular kitchens, wardrobes and storage." },
+      { "title": "Furniture selection", "description": "Pieces sourced to suit the design and budget." },
+      { "title": "Painting", "description": "Interior and exterior painting and finishes." },
+      { "title": "Electrical", "description": "Wiring, fittings and lighting installation." }
+    ],
+    "clientLogos": [
+      { "name": "[Client]", "logo": null },
+      { "name": "[Client]", "logo": null },
+      { "name": "[Client]", "logo": null },
+      { "name": "[Client]", "logo": null },
+      { "name": "[Client]", "logo": null },
+      { "name": "[Client]", "logo": null }
+    ]
+  },
+  "services": [
+    {
+      "title": "Civil construction",
+      "slug": "civil-construction",
+      "description": "Complete house construction, planned and executed by one team from foundation to handover.",
+      "points": ["Planning, drawings & approvals", "Foundation, structure & masonry", "Finishing & handover"],
+      "image": null,
+      "imageHint": "House under construction"
+    },
+    {
+      "title": "Interior design & execution",
+      "slug": "interiors",
+      "description": "Interiors designed in 2D/3D, then built and finished by our own crews.",
+      "points": ["2D/3D design & space planning", "Modular units & furniture selection", "Painting & electrical"],
+      "image": null,
+      "imageHint": "Finished living room"
+    },
+    {
+      "title": "Structural steel",
+      "slug": "structural-steel",
+      "description": "Fabrication and erection of structural steel for homes and industrial buildings.",
+      "points": ["Workshop fabrication & welding", "On-site erection with cranes", "Frames, mezzanines & staircases"],
+      "image": null,
+      "imageHint": "Steel frame erection"
+    },
+    {
+      "title": "PEB structures",
+      "slug": "peb-structures",
+      "description": "Pre-engineered buildings fabricated and erected quickly, with less on-site work.",
+      "points": ["PEB frame design & fabrication", "Erection, cladding & sheeting", "Warehouses, sheds & workshops"],
+      "image": null,
+      "imageHint": "PEB warehouse"
+    },
+    {
+      "title": "Roofing works",
+      "slug": "roofing",
+      "description": "Durable roofing for homes and industrial buildings, installed and weatherproofed.",
+      "points": ["Metal & sandwich-panel roofing", "Gutters, flashing & insulation", "Leak repair & waterproofing"],
+      "image": null,
+      "imageHint": "Metal roof installation"
+    },
+    {
+      "title": "Mechanical piping",
+      "slug": "mechanical-piping",
+      "description": "Fabrication and installation of process and utility piping systems.",
+      "points": ["Process & utility pipelines", "Fabrication, welding & testing", "Installation & maintenance"],
+      "image": null,
+      "imageHint": "Industrial pipework"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Hillcrest Family Home",
+      "slug": "hillcrest-family-home",
+      "category": "Houses",
+      "status": "Ongoing",
+      "featured": true,
+      "location": "[City]",
+      "year": "[2026]",
+      "client": "[Client name]",
+      "area": "[sq ft]",
+      "startDate": "[Month Year]",
+      "handover": "[Month Year]",
+      "progress": 68,
+      "summary": "[Lead paragraph: what the client needed, and the one challenge that made this project interesting.]",
+      "body": ["[Body copy from the CMS: scope of work, construction approach, materials, and the outcome for the client.]"],
+      "services": ["Civil construction", "Interior design & execution"],
+      "coverImage": null,
+      "gallery": [],
+      "milestones": [
+        { "title": "Groundbreaking", "note": "Site cleared and foundations begun", "date": "[Date]", "done": true },
+        { "title": "Structure complete", "note": "Frame and slabs finished", "date": "[Date]", "done": true },
+        { "title": "Envelope sealed", "note": "Walls and roofing closed in", "date": "[Date]", "done": true },
+        { "title": "Interior fit-out", "note": "Services, finishes and fixtures", "date": "[Date]", "done": false },
+        { "title": "Handover", "note": "Inspections and client walkthrough", "date": "[Date]", "done": false }
+      ]
+    },
+    { "title": "Lakeside Villa", "slug": "lakeside-villa", "category": "Houses", "status": "Completed", "featured": true, "location": "[City]", "year": "[2025]", "client": "[Client name]", "area": "[sq ft]", "startDate": "[Month Year]", "handover": "[Month Year]", "progress": null, "summary": "[Project summary]", "body": [], "services": ["Civil construction"], "coverImage": null, "gallery": [], "milestones": [] },
+    { "title": "Northgate PEB Warehouse", "slug": "northgate-peb-warehouse", "category": "Steel & PEB", "status": "Completed", "featured": true, "location": "[City]", "year": "[2024]", "client": "[Client name]", "area": "[sq ft]", "startDate": "[Month Year]", "handover": "[Month Year]", "progress": null, "summary": "[Project summary]", "body": [], "services": ["PEB structures"], "coverImage": null, "gallery": [], "milestones": [] },
+    { "title": "Oakwood Apartment Interiors", "slug": "oakwood-apartment-interiors", "category": "Interiors", "status": "Completed", "featured": true, "location": "[City]", "year": "[2024]", "client": "[Client name]", "area": "[sq ft]", "startDate": "[Month Year]", "handover": "[Month Year]", "progress": null, "summary": "[Project summary]", "body": [], "services": ["Interior design & execution"], "coverImage": null, "gallery": [], "milestones": [] },
+    { "title": "Cedar Park Duplex", "slug": "cedar-park-duplex", "category": "Houses", "status": "Ongoing", "featured": false, "location": "[City]", "year": "[2026]", "client": "[Client name]", "area": "[sq ft]", "startDate": "[Month Year]", "handover": "[Month Year]", "progress": 35, "summary": "[Project summary]", "body": [], "services": ["Civil construction"], "coverImage": null, "gallery": [], "milestones": [] },
+    { "title": "Westfield Mezzanine Floor", "slug": "westfield-mezzanine-floor", "category": "Steel & PEB", "status": "Completed", "featured": false, "location": "[City]", "year": "[2023]", "client": "[Client name]", "area": "[sq ft]", "startDate": "[Month Year]", "handover": "[Month Year]", "progress": null, "summary": "[Project summary]", "body": [], "services": ["Structural steel"], "coverImage": null, "gallery": [], "milestones": [] },
+    { "title": "Summit Factory Roofing", "slug": "summit-factory-roofing", "category": "Roofing", "status": "Ongoing", "featured": false, "location": "[City]", "year": "[2026]", "client": "[Client name]", "area": "[sq ft]", "startDate": "[Month Year]", "handover": "[Month Year]", "progress": 50, "summary": "[Project summary]", "body": [], "services": ["Roofing works"], "coverImage": null, "gallery": [], "milestones": [] },
+    { "title": "Old Mill Villa Interiors", "slug": "old-mill-villa-interiors", "category": "Interiors", "status": "Completed", "featured": false, "location": "[City]", "year": "[2023]", "client": "[Client name]", "area": "[sq ft]", "startDate": "[Month Year]", "handover": "[Month Year]", "progress": null, "summary": "[Project summary]", "body": [], "services": ["Interior design & execution"], "coverImage": null, "gallery": [], "milestones": [] },
+    { "title": "Riverbend Plant Piping", "slug": "riverbend-plant-piping", "category": "Piping", "status": "Completed", "featured": false, "location": "[City]", "year": "[2022]", "client": "[Client name]", "area": "[Length / tonnage]", "startDate": "[Month Year]", "handover": "[Month Year]", "progress": null, "summary": "[Project summary]", "body": [], "services": ["Mechanical piping"], "coverImage": null, "gallery": [], "milestones": [] }
+  ],
+  "testimonials": [
+    { "name": "[Client name]", "role": "Homeowner", "service": "Civil construction", "project": { "title": "Hillcrest Family Home", "slug": "hillcrest-family-home" }, "quote": "[Sample review — replace with real client feedback.] Lenvik handled everything from the drawings and approvals to the final coat of paint." },
+    { "name": "[Client name]", "role": "Operations head, [Company]", "service": "PEB structures", "project": { "title": "Northgate PEB Warehouse", "slug": "northgate-peb-warehouse" }, "quote": "[Sample review — replace with real client feedback.] The PEB shed went up faster than we expected, with weekly photo updates." },
+    { "name": "[Client name]", "role": "Apartment owner", "service": "Interior design", "project": { "title": "Oakwood Apartment Interiors", "slug": "oakwood-apartment-interiors" }, "quote": "[Sample review — replace with real client feedback.] Seeing the 3D designs before work started made every decision easy." },
+    { "name": "[Client name]", "role": "Plant manager, [Company]", "service": "Mechanical piping", "project": { "title": "Riverbend Plant Piping", "slug": "riverbend-plant-piping" }, "quote": "[Sample review — replace with real client feedback.] Clean welds, proper pressure testing and a crew that followed our safety rules." }
+  ],
+  "faqs": [
+    { "question": "Do you handle drawings and approvals?", "answer": "Yes. For house construction we prepare the drawings, apply for the required approvals and manage the process through to completion." },
+    { "question": "Can you do only the interiors for my existing home?", "answer": "Yes. Our interior team takes on standalone projects: 2D/3D design, modular units, furniture selection, painting and electrical work." },
+    { "question": "How long does a PEB structure take?", "answer": "[Typical timeline], depending on size and design. Because the parts are fabricated in our workshop, on-site work is much shorter than conventional construction." },
+    { "question": "Which areas do you work in?", "answer": "[Cities / regions covered]. For larger steel, PEB and piping projects we also travel further." },
+    { "question": "Do you give a fixed quote?", "answer": "After a site visit and once the scope is agreed, we give a detailed written quote that breaks down materials and labour." }
+  ]
+}

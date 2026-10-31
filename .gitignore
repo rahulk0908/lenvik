@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+.vite-react-ssg-temp
+web/src/data/content.json
+studio/.sanity
+.DS_Store
+studio/seed.ndjson
