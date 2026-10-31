@@ -32,7 +32,10 @@ const query = `{
   "faqs": *[_type == "faq"] | order(order asc){question, answer}
 }`
 
-if (!projectId) {
+if (!projectId && process.env.NETLIFY) {
+  // Never publish sample content: fail the deploy so the current live site stays up
+  throw new Error('[content] SANITY_PROJECT_ID is not set in Netlify environment variables (needs the Builds scope)')
+} else if (!projectId) {
   await copyFile(dataDir + 'sample-content.json', out)
   console.log('[content] SANITY_PROJECT_ID not set, using sample content')
 } else {
