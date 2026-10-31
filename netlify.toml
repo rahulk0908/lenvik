@@ -5,6 +5,9 @@
 
 [build.environment]
   NODE_VERSION = "24"
+  # Not secret: the dataset is public-read, so the ID can live in the repo
+  SANITY_PROJECT_ID = "3anawk19"
+  SANITY_DATASET = "production"
 
 # Unknown URLs get the prerendered 404 page
 [[redirects]]

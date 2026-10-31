@@ -32,9 +32,19 @@ const query = `{
   "faqs": *[_type == "faq"] | order(order asc){question, answer}
 }`
 
+if (process.env.NETLIFY && !process.env.VITE_WEB3FORMS_KEY) {
+  console.warn('[content] VITE_WEB3FORMS_KEY is not set: quote requests will open WhatsApp but no email copy is sent')
+}
+
 if (!projectId && process.env.NETLIFY) {
   // Never publish sample content: fail the deploy so the current live site stays up
-  throw new Error('[content] SANITY_PROJECT_ID is not set in Netlify environment variables (needs the Builds scope)')
+  const seen = Object.keys(process.env)
+    .filter((k) => /^(SANITY|VITE)_/.test(k))
+    .map((k) => (process.env[k] ? k : `${k} (empty)`))
+  throw new Error(
+    `[content] SANITY_PROJECT_ID is not set for this build (context: ${process.env.CONTEXT}). ` +
+      `Variables visible to the build: ${seen.join(', ') || 'none'}`,
+  )
 } else if (!projectId) {
   await copyFile(dataDir + 'sample-content.json', out)
   console.log('[content] SANITY_PROJECT_ID not set, using sample content')
