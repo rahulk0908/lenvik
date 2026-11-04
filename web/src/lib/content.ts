@@ -77,6 +77,14 @@ export const { settings, services, projects, testimonials, faqs } = content
 
 export const categories = ['Houses', 'Interiors', 'Steel & PEB', 'Roofing', 'Piping']
 
+// Phone and WhatsApp numbers both come from Site settings in Sanity
+export const phoneHref = `tel:${settings.phone.replace(/[^\d+]/g, '')}`
+
+// "917829780587" → "+91 78297 80587" (Indian mobiles); other numbers just get a leading +
+export const whatsappDisplay = /^91\d{10}$/.test(settings.whatsapp)
+  ? `+91 ${settings.whatsapp.slice(2, 7)} ${settings.whatsapp.slice(7)}`
+  : `+${settings.whatsapp}`
+
 export function findProject(slug: string | undefined) {
   return projects.find((p) => p.slug === slug)
 }

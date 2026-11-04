@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { settings } from '../lib/content'
+import { phoneHref, settings } from '../lib/content'
 import { whatsappLink } from '../lib/quote'
 
 const columns = [
@@ -33,7 +33,7 @@ export function Footer() {
             <p className="max-w-[260px] text-[15px] leading-relaxed">
               {settings.tagline}
               <br />
-              <a href={`tel:${settings.phone.replace(/\s/g, '')}`} className="text-white hover:text-sky">
+              <a href={phoneHref} className="text-white hover:text-sky">
                 {settings.phone}
               </a>
               <br />
@@ -58,7 +58,7 @@ export function Footer() {
               <a href={whatsappLink()} target="_blank" rel="noreferrer" className="hover:text-white">
                 WhatsApp
               </a>
-              <a href={`tel:${settings.phone.replace(/\s/g, '')}`} className="hover:text-white">
+              <a href={phoneHref} className="hover:text-white">
                 Call
               </a>
             </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Mail, MessageCircle, Minus, Phone, Plus } from "lucide-react";
-import { faqs, settings } from "../lib/content";
+import { faqs, phoneHref, settings, whatsappDisplay } from "../lib/content";
 import { whatsappLink } from "../lib/quote";
 import { QuoteForm } from "../components/QuoteForm";
 import { Seo } from "../components/Seo";
@@ -11,12 +11,12 @@ const methods = [
     label: "Call us",
     value: settings.phone,
     note: settings.hours,
-    href: `tel:${settings.phone.replace(/\s/g, "")}`,
+    href: phoneHref,
     Icon: Phone,
   },
   {
     label: "WhatsApp",
-    value: settings.phone,
+    value: whatsappDisplay,
     note: "Send photos or plans directly",
     href: whatsappLink(),
     Icon: MessageCircle,

@@ -7,7 +7,7 @@ import { Process } from '../components/home/Process'
 import { Testimonials } from '../components/home/Testimonials'
 import { QuoteForm } from '../components/QuoteForm'
 import { Eyebrow } from '../components/ui'
-import { settings } from '../lib/content'
+import { phoneHref, settings } from '../lib/content'
 
 export default function Home() {
   return (
@@ -29,7 +29,7 @@ export default function Home() {
             Tell us about your project. We reply within {settings.replyTime} with next steps.
           </p>
           <div className="mt-2 flex flex-col gap-3">
-            <a href={`tel:${settings.phone.replace(/\s/g, '')}`} className="font-medium">
+            <a href={phoneHref} className="font-medium">
               {settings.phone}
             </a>
             <a href={`mailto:${settings.email}`} className="font-medium">
